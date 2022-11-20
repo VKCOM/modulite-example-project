@@ -1,0 +1,24 @@
+name: "@example-api"
+description: ""
+namespace: "API\\"
+
+# "Public API" of the modulite: classes, functions, constants, etc.
+# Symbols not listed here will be internal.
+export:
+  - "ApiResponseOk"
+  - "ApiRouter"
+  - "Exceptions\\ApiException"
+
+# Class members to exclude, they override "export".
+force-internal:
+
+# Dependencies: other modulites, global classes, defines, etc.
+require:
+  - "@messi"
+  - "\\Users\\User"
+  - "\\adaminka_addUser()"
+  - "\\adaminka_createChannel()"
+  - "\\currentUser()"
+
+# Granting partial access to internal symbols, "as an exception".
+allow-internal-access:
