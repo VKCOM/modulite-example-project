@@ -1,0 +1,19 @@
+{
+  "name": "vkcom/modulite-example-project",
+  "description": "This example project contains some Modulite errors, detected by IDE, PHPStan, and KPHP",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "1.8",
+    "vkcom/modulite-phpstan": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "\\": "src/"
+    }
+  }
+}

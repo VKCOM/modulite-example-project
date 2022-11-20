@@ -1,0 +1,10 @@
+/.idea
+/.build
+/vendor
+kphp_out
+.DS_Store
+.phpunit.result.cache
+.env
+
+# ignore composer.lock not to experience problems with PHP 7.4/8.0 dependencies at `composer validate`
+composer.lock

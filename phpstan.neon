@@ -1,0 +1,10 @@
+parameters:
+    level: 4
+    paths:
+        - src/
+    modulite:
+        projectRoot: .
+        srcRoot: src/
+
+includes:
+    - vendor/vkcom/modulite-phpstan/extension.neon
